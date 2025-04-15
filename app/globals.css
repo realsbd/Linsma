@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 210 100% 19%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 195 75% 95%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 195 75% 95%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 210 100% 19%;
+    --radius: 0.5rem;
+
+    --sidebar: hsl(0 0% 98%);
+    --sidebar-foreground: hsl(240 5.3% 26.1%);
+    --sidebar-border: hsl(220 13% 91%);
+    --sidebar-accent: hsl(240 4.8% 95.9%);
+    --sidebar-accent-foreground: hsl(240 5.9% 10%);
+    --sidebar-ring: hsl(217.2 91.2% 59.8%);
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 210 100% 19%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 195 75% 95%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 195 75% 95%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 210 100% 19%;
+
+    --sidebar: hsl(240 5.9% 10%);
+    --sidebar-foreground: hsl(240 4.8% 95.9%);
+    --sidebar-border: hsl(240 3.7% 15.9%);
+    --sidebar-accent: hsl(240 3.7% 15.9%);
+    --sidebar-accent-foreground: hsl(240 4.8% 95.9%);
+    --sidebar-ring: hsl(217.2 91.2% 59.8%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold; /* 64px */
+  }
+  h2 {
+    @apply text-3xl md:text-4xl font-bold; /* 48px */
+  }
+  h3 {
+    @apply text-2xl md:text-3xl font-bold; /* 36px */
+  }
+  h4 {
+    @apply text-xl md:text-2xl font-semibold; /* 32px */
+  }
+  h5 {
+    @apply text-lg md:text-xl font-semibold; /* 28px */
+  }
+  h6 {
+    @apply text-base md:text-lg font-semibold; /* 24px */
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 md:px-6 lg:px-8;
+  }
+  .section {
+    @apply py-12 md:py-16;
+  }
+  .page-banner {
+    @apply relative flex items-center justify-center bg-[#002a4a] text-white py-12 md:py-16;
+  }
+  .title-xl-bold {
+    @apply text-xl font-bold; /* 22px */
+  }
+  .title-lg-bold {
+    @apply text-lg font-bold; /* 20px */
+  }
+  .title-md-bold {
+    @apply text-base font-bold; /* 16px */
+  }
+  .title-sm-bold {
+    @apply text-sm font-bold; /* 14px */
+  }
+
+  .body-xl {
+    @apply text-xl; /* 20px */
+  }
+  .body-lg {
+    @apply text-lg; /* 18px */
+  }
+  .body-md {
+    @apply text-base; /* 16px */
+  }
+  .body-sm {
+    @apply text-sm; /* 14px */
+  }
+  .body-xs {
+    @apply text-xs; /* 12px */
+  }
+}

@@ -215,7 +215,7 @@ export default function AboutPage() {
             <FadeIn direction="left">
               <div className="relative h-[400px]">
                 <Image
-                  src="/placeholder.svg?height=400&width=600&text=Student+Studying"
+                  src="/images/our approach.jpg"
                   alt="Student studying"
                   fill
                   className="object-cover rounded-lg"

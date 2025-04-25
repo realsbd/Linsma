@@ -69,7 +69,7 @@ export default function Home() {
                       variant="outline"
                       className="border-[#003763] text-[#003763] hover:bg-[#003763] hover:text-white transition-all duration-300 px-6 py-6 text-base"
                     >
-                      <Link href="/about">Learn More</Link>
+                      <Link href="/About">Learn More</Link>
                     </Button>
                   </motion.div>
                 </div>
@@ -690,7 +690,7 @@ export default function Home() {
                       variant="outline"
                       className="border-white text-white hover:bg-white/10 transition-all duration-300 px-6 py-6 text-base"
                     >
-                      <Link href="/about">Learn More</Link>
+                      <Link href="/About">Learn More</Link>
                     </Button>
                   </motion.div>
                 </div>

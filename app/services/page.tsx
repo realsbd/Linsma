@@ -455,7 +455,7 @@ export default function ServicesPage() {
                     variant="outline"
                     className="border-white text-white hover:bg-white/10 transition-all duration-300 px-6 py-6 text-base"
                   >
-                    <Link href="/about">Learn More About Us</Link>
+                    <Link href="/About">Learn More About Us</Link>
                   </Button>
                 </motion.div>
               </div>

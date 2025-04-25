@@ -31,7 +31,7 @@ const navLinks = [
       { name: "Study in Asia", href: "/study-abroad/asia" },
     ],
   },
-  { name: "About us", href: "/about" },
+  { name: "About us", href: "/About" },
   { name: "Mission & Vision", href: "/mission" },
   { name: "Contact us", href: "/contact" },
   { name: "Blog", href: "/blog" },
@@ -42,7 +42,7 @@ const floatingNavItems = [
   { name: "Services", link: "/services", icon: <Briefcase className="h-4 w-4" /> },
   { name: "Study Abroad", link: "/study-abroad", icon: <BookOpen className="h-4 w-4" /> },
   { name: "Mission", link: "/mission", icon: <Globe className="h-4 w-4" /> },
-  { name: "About", link: "/about", icon: <Users className="h-4 w-4" /> },
+  { name: "About", link: "/About", icon: <Users className="h-4 w-4" /> },
   { name: "Contact", link: "/contact", icon: <Mail className="h-4 w-4" /> },
 ]
 

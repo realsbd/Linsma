@@ -44,7 +44,7 @@ export default function ConsultancyServicesPage() {
 
             <div className="relative h-[250px]">
               <Image
-                src="/images/consultancy-services.png"
+                src="/images/Management consulting.jpg"
                 alt="Management Consulting"
                 fill
                 className="object-cover rounded-lg"
@@ -53,7 +53,7 @@ export default function ConsultancyServicesPage() {
 
             <div className="relative h-[250px]">
               <Image
-                src="/images/consultancy-services.png"
+                src="/images/consultancy-services.jpg"
                 alt="HR Consulting"
                 fill
                 className="object-cover rounded-lg"
@@ -93,7 +93,7 @@ export default function ConsultancyServicesPage() {
 
             <div className="relative h-[250px]">
               <Image
-                src="/images/consultancy-services.png"
+                src="/images/marketing-sales.jpg"
                 alt="Marketing Consulting"
                 fill
                 className="object-cover rounded-lg"

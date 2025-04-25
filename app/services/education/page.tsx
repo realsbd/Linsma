@@ -162,7 +162,7 @@ export default function EducationalServicesPage() {
 
             <div className="relative h-[400px]">
               <Image
-                src="/images/educational-services.png"
+                src="/images/educational-services.jpg"
                 alt="School Placement"
                 fill
                 className="object-cover rounded-lg"
@@ -171,7 +171,7 @@ export default function EducationalServicesPage() {
 
             <div className="relative h-[400px]">
               <Image
-                src="/images/educational-services.png"
+                src="/images/educational-services-universities.jpg"
                 alt="University Placement"
                 fill
                 className="object-cover rounded-lg"

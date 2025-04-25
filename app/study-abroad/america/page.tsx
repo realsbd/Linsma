@@ -27,35 +27,35 @@ const americanCountries = [
     flag: "/placeholder.svg?height=40&width=40&text=CA",
     universities: ["University of Toronto", "McGill University", "University of British Columbia"],
     description: "Canada provides high-quality education with a welcoming environment for international students.",
-    image: "/placeholder.svg?height=300&width=500&text=Canada",
+    image: "/images/canada-university.jpg",
   },
   {
     name: "Mexico",
     flag: "/placeholder.svg?height=40&width=40&text=MX",
     universities: ["UNAM", "Tecnológico de Monterrey", "Universidad Iberoamericana"],
     description: "Mexico offers a rich cultural experience alongside quality education at affordable costs.",
-    image: "/placeholder.svg?height=300&width=500&text=Mexico",
+    image: "/images/mexico-university.jpg",
   },
   {
     name: "Brazil",
     flag: "/placeholder.svg?height=40&width=40&text=BR",
     universities: ["University of São Paulo", "University of Campinas", "Federal University of Rio de Janeiro"],
     description: "Brazil provides diverse academic programs with a vibrant cultural environment.",
-    image: "/placeholder.svg?height=300&width=500&text=Brazil",
+    image: "/images/brazil-university.jpg",
   },
   {
     name: "Argentina",
     flag: "/placeholder.svg?height=40&width=40&text=AR",
     universities: ["University of Buenos Aires", "National University of Córdoba", "Austral University"],
     description: "Argentina offers quality education with a European influence and affordable tuition fees.",
-    image: "/placeholder.svg?height=300&width=500&text=Argentina",
+    image: "/images/argentina-university.jpg",
   },
   {
     name: "Chile",
     flag: "/placeholder.svg?height=40&width=40&text=CL",
     universities: ["Pontifical Catholic University of Chile", "University of Chile", "Adolfo Ibáñez University"],
     description: "Chile provides modern educational facilities with strong academic programs in a stable environment.",
-    image: "/placeholder.svg?height=300&width=500&text=Chile",
+    image: "/images/chile-university.jpg",
   },
 ]
 
@@ -311,7 +311,7 @@ export default function StudyInAmericaPage() {
             <ScrollReveal direction="right">
               <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/harvard-university.jpeg"
+                  src="/images/modern-university.jpg"
                   alt="Harvard University campus with iconic red brick buildings"
                   fill
                   className="object-cover"

@@ -21,7 +21,7 @@ const asianCountries = [
     universities: ["University of Tokyo", "Kyoto University", "Osaka University"],
     description:
       "Japan offers a unique blend of traditional culture and cutting-edge technology with high academic standards.",
-    image: "/placeholder.svg?height=300&width=500&text=Japan",
+    image: "/images/japan-university.jpg",
   },
   {
     name: "Singapore",
@@ -33,7 +33,7 @@ const asianCountries = [
     ],
     description:
       "Singapore provides world-class education in a multicultural, English-speaking environment with strong industry connections.",
-    image: "/placeholder.svg?height=300&width=500&text=Singapore",
+    image: "/images/singapore-university.jpg",
   },
   {
     name: "South Korea",
@@ -44,7 +44,7 @@ const asianCountries = [
       "Yonsei University",
     ],
     description: "South Korea combines academic excellence with a vibrant cultural scene and technological innovation.",
-    image: "/placeholder.svg?height=300&width=500&text=South+Korea",
+    image: "/images/korea-university.jpg",
   },
   {
     name: "China",
@@ -52,7 +52,7 @@ const asianCountries = [
     universities: ["Tsinghua University", "Peking University", "Fudan University"],
     description:
       "China offers diverse academic programs with increasing international recognition and affordable tuition.",
-    image: "/placeholder.svg?height=300&width=500&text=China",
+    image: "/images/china-university.jpg",
   },
   {
     name: "Malaysia",
@@ -60,7 +60,7 @@ const asianCountries = [
     universities: ["University of Malaya", "Universiti Putra Malaysia", "Universiti Sains Malaysia"],
     description:
       "Malaysia provides quality education at affordable costs in a multicultural environment with English-taught programs.",
-    image: "/placeholder.svg?height=300&width=500&text=Malaysia",
+    image: "/images/malaysia-university.jpg",
   },
   {
     name: "Australia",
@@ -68,7 +68,7 @@ const asianCountries = [
     universities: ["University of Melbourne", "Australian National University", "University of Sydney"],
     description:
       "Australia offers high-quality education with a relaxed lifestyle and strong support for international students.",
-    image: "/images/mediterranean-campus.jpeg",
+    image: "/images/australia-university.jpg",
   },
 ]
 
@@ -323,7 +323,7 @@ export default function StudyInAsiaPage() {
             <ScrollReveal direction="right">
               <div className="relative h-[400px] rounded-xl overflow-hidden shadow-xl">
                 <Image
-                  src="/images/mediterranean-campus.jpeg"
+                  src="/images/modern-university-asia.jpg"
                   alt="Modern campus with open courtyard design"
                   fill
                   className="object-cover"

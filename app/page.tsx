@@ -122,7 +122,7 @@ export default function Home() {
               <div className="relative">
                 <div className="relative h-[400px] w-full rounded-2xl overflow-hidden shadow-2xl">
                   <Image
-                    src="/images/classical-education.jpeg"
+                    src="/images/classical-education.jpg"
                     alt="Student studying abroad in a prestigious university"
                     fill
                     className="object-cover"

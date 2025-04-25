@@ -47,7 +47,7 @@ export default function LanguageServicesPage() {
 
             <div className="relative h-[400px]">
               <Image
-                src="/images/language-services.png"
+                src="/images/language-services.jpg"
                 alt="Language Services"
                 fill
                 className="object-cover rounded-lg"

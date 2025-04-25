@@ -20,7 +20,7 @@ const europeanCountries = [
     flag: "/placeholder.svg?height=40&width=40&text=UK",
     universities: ["University of Oxford", "University of Cambridge", "Imperial College London"],
     description: "The UK offers world-class education with a rich cultural heritage and diverse student community.",
-    image: "/placeholder.svg?height=300&width=500&text=United+Kingdom",
+    image: "/images/study-abroad-uk.jpg",
   },
   {
     name: "Germany",
@@ -28,14 +28,14 @@ const europeanCountries = [
     universities: ["Technical University of Munich", "Ludwig Maximilian University", "Heidelberg University"],
     description:
       "Germany provides tuition-free education at public universities with strong emphasis on research and innovation.",
-    image: "/placeholder.svg?height=300&width=500&text=Germany",
+    image: "/images/germany-school.jpg",
   },
   {
     name: "France",
     flag: "/placeholder.svg?height=40&width=40&text=FR",
     universities: ["Sorbonne University", "École Polytechnique", "Sciences Po"],
     description: "France combines academic excellence with rich cultural experiences in a vibrant European setting.",
-    image: "/placeholder.svg?height=300&width=500&text=France",
+    image: "/images/france-schools.jpg",
   },
   {
     name: "Netherlands",
@@ -43,14 +43,14 @@ const europeanCountries = [
     universities: ["University of Amsterdam", "Delft University of Technology", "Leiden University"],
     description:
       "The Netherlands offers numerous English-taught programs in an innovative and international environment.",
-    image: "/placeholder.svg?height=300&width=500&text=Netherlands",
+    image: "/images/netherland-schools.jpg",
   },
   {
     name: "Spain",
     flag: "/placeholder.svg?height=40&width=40&text=ES",
     universities: ["University of Barcelona", "Complutense University of Madrid", "University of Valencia"],
     description: "Spain provides a vibrant cultural experience alongside quality education in a Mediterranean setting.",
-    image: "/images/spain-castle.jpeg",
+    image: "/images/spain-schools.jpg",
   },
   {
     name: "Italy",

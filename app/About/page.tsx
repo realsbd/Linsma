@@ -242,7 +242,7 @@ export default function AboutPage() {
       </section>
 
       {/* Team Section */}
-      <section className="section bg-white">
+      {/* <section className="section bg-white">
         <div className="container mx-auto">
           <FadeIn>
             <h2 className="mb-12 text-center text-[#002a4a]">Meet Our Team</h2>
@@ -329,7 +329,7 @@ export default function AboutPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="section bg-[#003763] text-white">
